@@ -382,10 +382,7 @@ item-type-zoom .item-info .line {
     margin: 15px auto 10px auto;
     background-color: #ffffff;
 }
-element.style {
-    opacity: 1;
-    display: block;
-}
+
 .owl-carousel {
     display: none;
     position: relative; justify-content: space-between;
