@@ -1,13 +1,73 @@
-
-nav
+.container-fluid
 {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 10%;
+    padding:0% 15%;
+}
+.footer-box
+{
     color: white;
 }
-.section1{
-   
-    
-   
+h3 
+{
+    font-family: 'Lobster', cursive;
+    color: orange;
 }
+
+.h1Font
+{
+    font-family: 'Lobster', cursive;
+    padding-bottom: 1rem;
+}
+.newsletter
+{
+    color: white;
+}
+
+.jumbotron
+{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../masterfood/newsletter.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 100px;
+    padding-bottom: 70px;
+    margin: 0;
+}
+
+body {
+    background: #eee
+}
+
+.card {
+    background-color: #4a6ad6
+}
+
+.text-color {
+    color: #eee !important
+}
+
+.containerForNewsLetter .content  
+{
+    max-width: 650px;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+
+.input-group
+{
+    border-radius: ;
+    border-style: dotted;
+}
+.btnNewsletter
+{
+    border-style: dotted;
+    border-width: 1px;
+    border-right-color: red;
+    background-color: orange;
+}
+.btnNewsletter:hover
+{
+    background-color:#6c757d;
+
+}
+  
