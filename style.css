@@ -1,38 +1,15 @@
-.banner-cell {
-    display: table-cell;
-    vertical-align: middle;
-    color: #fff;
-}
-.banner-text {
-    display: table;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-.banner-text h1 {
-    font-family: 'nautilus_pompiliusregular';
-    letter-spacing: 2.7px;
-    position: relative;
-    display: inline-block;
-    font-size: 74px;
-    line-height: 100px;
-    color: #fff;
-    padding-bottom: 0px;
-    padding-top: 100px;
-}
-.book-btn  a{
-    
+body{
     color: #fff;
     min-width: 219px;
     padding: 10.5px 20px;
     display: inline-block;
     text-align: center;
     font-weight: 800;
-    text-transform: uppercase;
-    font-size: 18px;
+    
+    
     
 }
+
 .book-btn a {
     background: #e75b1e;
     border: 3px solid #e75b1e;
@@ -324,50 +301,6 @@ a {
     color: #337ab7;
     text-decoration: none;
 }
-a {
-    background-color: transparent;
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-
-.item-type-zoom .item-info .headline {
-    font-size: 18px;
-    width: 75%;
-    margin: 0 auto;
-    border: 4px solid #ffffff;
-    padding: 10px;
-}
-
-element.style {
-    width: 313px;
-}
-#owl-demo .item {
-    margin: 15px;
-    position: relative;
-}
-.item-type-zoom {
-    border: 4px solid #fff;
-}
-.owl-carousel .owl-item {
-    float: left;
-}
-.item-hover, .item-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
 .owl-carousel .owl-wrapper:after {
     content: ".";
     display: block;
@@ -413,4 +346,45 @@ img {
 }
 .item-type-zoom {
     border: 4px solid #fff;
+}
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.item-type-zoom .item-info .headline {
+    font-size: 18px;
+    width: 75%;
+    margin: 0 auto;
+    border: 4px solid #ffffff;
+    padding: 10px;
+}
+
+element.style {
+    width: 313px;
+}
+#owl-demo .item {
+    margin: 15px;
+    position: relative;
+}
+.item-type-zoom {
+    border: 4px solid #fff;
+}
+.owl-carousel .owl-item {
+    float: left;
+}
+.item-hover, .item-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
